@@ -1,7 +1,13 @@
 #!/bin/bash
+
+# actualizamos el poryecto
+git pull
+
+# descomprimimos
+tar xfv ignore.tar.gz
 filename='ficheroMover.txt'
 while read line; do
-#echo "Linea: ~/TFG/$line"
-mv ~/TFG/TFGunity/$line ~/TFG/ignore
+mv ignore/$line TFGunity
 done < $filename
-zip -r ignore.zip ignore
+rm -r ignore
+rm -r ignore.tar.gz
