@@ -1,6 +1,8 @@
 #!/bin/bash
+mkdir ignore
 filename='ficheroMover.txt'
 while read line; do
-mv TFGunity/$line ./ignore
+mv TFGunity/$line ignore
 done < $filename
-#zip -r ignore.zip ignore
+tar -zcvf ignore.tar.gz ignore
+rm -r ignore
