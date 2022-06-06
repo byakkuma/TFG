@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{14DDB04C-0779-D07C-249A-DDF8075EAEB7}</ProjectGuid>
+    <ProjectGuid>{EA835B4F-5819-5D07-B36F-DCF8D167F9B2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AssistantCoreSDKEditor</AssemblyName>
@@ -300,11 +300,26 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.Sensor">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.Sensor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>Assets\Plugins\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>Assets\Plugins\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.BodyTracking">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.BodyTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -314,6 +329,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>Assets\Plugins\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -681,7 +699,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
-      <Project>{A58C58A9-BD6F-EFBE-EEF7-896F72A07394}</Project>
+      <Project>{8C8249CF-96A5-42E6-5A22-62044ED47FCA}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{23C2AED1-EBF8-51B6-5856-5156C410F1C7}</ProjectGuid>
+    <ProjectGuid>{B63C7109-0087-A9FF-F0DD-280DEA18FE7F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.AudioManager.Audio.Editor</AssemblyName>
@@ -305,11 +305,26 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.Sensor">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.Sensor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>Assets\Plugins\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>Assets\Plugins\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.BodyTracking">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.BodyTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -319,6 +334,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>Assets\Plugins\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -686,7 +704,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.AudioManager.csproj">
-      <Project>{2A9698FB-BEC1-48DB-2271-9A573584826C}</Project>
+      <Project>{9B2EF75C-BB51-A0F1-CD41-E317E8466813}</Project>
       <Name>Oculus.AudioManager</Name>
     </ProjectReference>
   </ItemGroup>

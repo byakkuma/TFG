@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CA47357E-8A91-837B-5626-FC0FDD0B18F8}</ProjectGuid>
+    <ProjectGuid>{624D7BD9-0687-5F01-ED6A-955B52E966AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VoiceSDK.Editor</AssemblyName>
@@ -310,11 +310,26 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.Sensor">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.Sensor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>Assets\Plugins\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>Assets\Plugins\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.BodyTracking">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.BodyTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -324,6 +339,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>Assets\Plugins\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -691,15 +709,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VoiceSDK.Runtime.csproj">
-      <Project>{D0C57445-CC42-82D3-42EE-4E2C382B3D99}</Project>
+      <Project>{DD176CF1-431E-F81E-37DA-ADF02DC4C6CF}</Project>
       <Name>VoiceSDK.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.WitAI.csproj">
-      <Project>{A5A170AC-8BCD-3676-E418-03B8ADAD752D}</Project>
+      <Project>{BE0AA7AF-8B98-202E-B2CD-183C40333D01}</Project>
       <Name>Facebook.WitAI</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Editor.csproj">
-      <Project>{54886379-80C5-2E7C-3FD2-129E9BE013EC}</Project>
+      <Project>{E07426B3-387E-F142-1B0A-D2F68FE4965F}</Project>
       <Name>Facebook.Wit.Editor</Name>
     </ProjectReference>
   </ItemGroup>

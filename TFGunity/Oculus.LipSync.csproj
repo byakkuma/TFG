@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{44A63EC8-5CA6-972B-8767-5E041ED28192}</ProjectGuid>
+    <ProjectGuid>{60392E28-DEE5-3A47-7269-2C6CAE69F499}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.LipSync</AssemblyName>
@@ -313,11 +313,26 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.Sensor">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.Sensor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>Assets\Plugins\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>Assets\Plugins\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.BodyTracking">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.BodyTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -327,6 +342,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>Assets\Plugins\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

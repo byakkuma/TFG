@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1BB1B4CD-DD7E-37D0-317B-5667EF322473}</ProjectGuid>
+    <ProjectGuid>{CBF241C9-9DD1-13B9-2258-0BAC5F1B59E8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.Platform.Editor</AssemblyName>
@@ -302,11 +302,26 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.Sensor">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.Sensor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>Assets\Plugins\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>Assets\Plugins\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Kinect.BodyTracking">
+      <HintPath>Assets\Plugins\Microsoft.Azure.Kinect.BodyTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -316,6 +331,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>Assets\Plugins\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -683,7 +701,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{2ACFF127-ACA3-8BFC-3654-7F563F2AFF7B}</Project>
+      <Project>{E99B618B-7C8D-C659-919B-5FA022A7A60C}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
   </ItemGroup>
