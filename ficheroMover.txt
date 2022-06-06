@@ -3,7 +3,6 @@ cublasLt64_11.dll
 cudnn_cnn_infer64_8.dll
 cudnn_ops_infer64_8.dll
 cufft64_10.dll
-dnn_model_2_0_lite_op11.onnx
 dnn_model_2_0_op11.onnx
 nvinfer.dll
 onnxruntime.dll
